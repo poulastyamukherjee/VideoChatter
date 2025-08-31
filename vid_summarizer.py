@@ -50,7 +50,7 @@ def describe_video():
     return model_with_images.invoke("Summarize the video content in a few sentences.")
 
 uploaded_file = st.file_uploader(
-    "Upload Video",
+    "Upload Videos",
     type=["mp4", "avi", "mov", "mkv"],
     accept_multiple_files=False
 )
